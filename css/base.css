@@ -301,6 +301,10 @@ body #cdawrap {
   align-items: start;
 }
 
+.content__title--center {
+  align-items: center;
+}
+
 .content__title--bottom {
   align-items: end;
 }
