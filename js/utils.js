@@ -1,7 +1,6 @@
 // Preload images
 const preloadImages = (selector = "img") => {
   return new Promise((resolve) => {
-    console.log("preloadImages");
     imagesLoaded(
       document.querySelectorAll(selector),
       { background: true },
